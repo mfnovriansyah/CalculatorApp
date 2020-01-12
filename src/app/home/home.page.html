@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Calculator
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label  class="numberShow">
+      {{numberShow}}
+    </ion-label>
+  </ion-item>
+  <div *ngFor="let ColumnButton of ColumnButtons">
+    <ion-button *ngFor="let button of ColumnButton" class="buttonCalculator" (click)="onClickButton(button)">{{button}}</ion-button>
+  </div>
+</ion-content>

@@ -1,0 +1,22 @@
+.numberShow {
+    text-align: right;
+    font-size: 30px;
+}
+.buttonCalculator{
+    padding-left: calc(2%);
+    padding-right: calc(2%);
+    width: calc(24%);
+    height: 60px;
+    font-size: 30px;
+}
+.operators {
+    ion-button{
+    color : "secondary";
+    }
+    
+    
+}
+
+.reset {
+    background-color: red;
+}
